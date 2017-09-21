@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding:0px;
+    color: white;
 }
 .ac-globalnav {
     position: absolute;
@@ -24,16 +25,6 @@
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px)
 }
-.ac-gn-list {
-    cursor: default;
-    margin: 0 -10px;
-    width: auto;
-    height: 44px;
-    text-align: justify;
-    -ms-text-justify: distribute-all-lines;
-    text-justify: distribute-all-lines;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none
+#appicon{
+
 }

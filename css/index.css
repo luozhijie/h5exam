@@ -25,6 +25,9 @@
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px)
 }
-#appicon{
-
+.inline_block{
+    display: inline-block;
+}
+.inline_block div img:hover{
+    opacity: 0.5;
 }

@@ -25,9 +25,26 @@
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px)
 }
+
 .inline_block{
     display: inline-block;
 }
-.inline_block div img:hover{
+#li_apple_icon,#li_mac,#li_watch,#li_ipad,#li_iphone,#li_tv,#li_music,#li_search,#li_shop,#li_support{
+    margin-left: 7%;
+}
+#li_support{
+    margin-right: 0px;
+}
+.appleicon_down_content{
+    display: none;
+}
+.inline_block:hover{
     opacity: 0.5;
+}
+#nav_content{
+    width: 100%;
+}
+#nav_ul{
+    width: 80%;
+    margin: 0 auto;
 }

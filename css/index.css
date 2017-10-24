@@ -103,6 +103,10 @@ body {
 .inline_block {
     display: inline-block;
 }
+.inline_block_auto_spacing{
+    width: 6%;
+    min-width: 71px;
+}
 
 #li_apple_icon, #li_mac, #li_watch, #li_ipad, #li_iphone, #li_tv, #li_music, #li_search, #li_shop, #li_support {
     margin-left: 6.5%;
@@ -126,6 +130,7 @@ body {
 
 #nav_ul {
     width: 88%;
+    min-width: 976px;
     margin: 0 auto;
 }
 
@@ -157,7 +162,16 @@ body {
     z-index: 1;
 }
 
+.chapternav-wrapper ul {
+    margin: 10px;
+    text-align:center;
+    min-width: 1024px;
+}
+
+
+
 .chapternav-label {
+    text-align:center;
     font-size: 11px;
     line-height: 1.09091;
     font-weight: 400;
@@ -167,63 +181,82 @@ body {
 }
 
 .macbook_dark_large_img {
+    width: 100%;
     height: 56px;
     background-image: url("../images/mac_cnav_pic/macbook_dark_large.svg");
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .macbookair_dark_large_img {
+    width: 100%;
     height: 56px;
     background-image: url("../images/mac_cnav_pic/macbookair_dark_large.svg");
     background-repeat: no-repeat;
+    background-position: center;
 }
-
 .macbookpro_dark_large_img {
+    width: 100%;
     height: 56px;
     background-image: url("../images/mac_cnav_pic/macbookpro_dark_large.svg");
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .imac_dark_large_img {
+    width: 100%;
     height: 56px;
     background-image: url("../images/mac_cnav_pic/imac_dark_large.svg");
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .imacpro_dark_large_img {
+    width: 100%;
     height: 56px;
     background-image: url("../images/mac_cnav_pic/imac_pro_dark_large.svg");
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .macpro_dark_large_img {
+    width: 100%;
     height: 56px;
     background-image: url("../images/mac_cnav_pic/macpro_dark_large.svg");
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .macmini_dark_large_img {
+    width: 100%;
     height: 56px;
     background-image: url("../images/mac_cnav_pic/macmini_dark_large.svg");
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .acc_dark_large_img {
+    width: 100%;
     height: 56px;
     background-image: url("../images/mac_cnav_pic/mac_acc_dark_large.svg");
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .highsierra_dark_large_img {
+    width: 100%;
     height: 56px;
     background-image: url("../images/mac_cnav_pic/mac_osx_dark_large.svg");
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .compare_dark_large_img {
+    width: 100%;
     height: 56px;
     background-image: url("../images/mac_cnav_pic/mac_comp_dark_large.svg");
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 

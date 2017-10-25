@@ -1,9 +1,11 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Apple</title>
     <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="js/jquery-3.2.1.js" type="text/javascript"></script>
+    <script src="js/index.js" type="text/javascript"></script>
 </head>
 <body>
 <nav class="ac-globalnav">
@@ -11,7 +13,7 @@
         <li class="inline_block" id="li_apple_icon">
             <div><img src="images/nav_pic/image_large.svg"></div>
         </li>
-        <li class="inline_block" id="li_mac">
+        <li class="inline_block" id="li_mac" onmouseover="showMacNav();return;">
             <div><img src="images/nav_pic/image_large_001.svg"></div>
         </li>
         <li class="inline_block" id="li_ipad">
@@ -40,9 +42,11 @@
         </li>
     </ul>
 </nav>
+
+<!-- mac导航条 -->
 <nav class="chapternav theme-dark" id="mac_nav">
     <div class="chapternav-wrapper">
-        <ul>
+        <ul id="ul_mac">
             <li class="inline_block inline_block_auto_spacing">
                 <a>
                     <figure class="macbook_dark_large_img"></figure>
@@ -107,5 +111,6 @@
         </ul>
     </div>
 </nav>
+asdasdsa
 </body>
 </html>

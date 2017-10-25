@@ -258,6 +258,6 @@ body {
     background-repeat: no-repeat;
     background-position: center;
 }
-#mac_nav{
-    visibility: hidden;
+#mac_nav {
+    display: none;
 }

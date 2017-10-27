@@ -1,33 +1,96 @@
 //初始化网页，该隐藏的隐藏。
 $(document).ready(function () {
-    var li = $("#ul_mac li");
-    li.each(function (index,element) {
-        $(element).hide();
-    })
+    hidenAll();
+});
 
-})
+//隐藏所有二级菜单图标
+function hidenAll() {
+
+    $("#ul_mac li").each(function (index, element) {
+        $(element).hide();
+    });
+
+    $("#ul_ipad li").each(function (index, element) {
+        $(element).hide();
+    });
+
+}
+
+//收起所有二级菜单
+function hiddenAll2Nav() {
+    switch (nowShow) {
+        case "mac_nav" :
+            $("#mac_nav").slideUp();
+            break;
+        case "ipad_nav" :
+            $("#ipad_nav").slideUp();
+            break;
+    }
+
+}
 
 //一些标记变量
-var macNavIsShow = false;
-
-//遍历li显示
-function showMacNavLi() {
-    var li = $("#ul_mac li");
-    li.each(function (index,element) {
-        $(element).slideDown((index+1)*200);
-    })
-}
+var nowShow = "";//正在显示的导航条
 
 
-//显示mac导航条
-function showMacNav() {
-    if(!macNavIsShow){
-        console.log("aaa");
-    macNavIsShow = true;
-    $("#mac_nav").slideDown("slow");
-     showMacNavLi();
+//隐藏导航条和二级导航条
+function hideNav() {
+    switch (nowShow) {
+        case "mac_nav":
+            hiddenAll2Nav();
+            $("#ul_mac li").each(function (index, element) {
+                $(element).hide();
+            });
+            break;
+        case "ipad_nav":
+            hiddenAll2Nav();
+            $("#ul_ipad li").each(function (index, element) {
+                $(element).hide();
+            });
+            break;
+
+
     }
 }
+
+
+//遍历li显示
+function showNavLi(whoShow) {
+    switch (whoShow) {
+        case "mac_nav" :
+            $("#mac_nav").slideDown();
+            $("#ul_mac li").each(function (index, element) {
+                $(element).slideDown((index + 1) * 150);
+            });
+            break;
+        case "ipad_nav" :
+            $("#ipad_nav").slideDown();
+            $("#ul_ipad li").each(function (index, element) {
+                $(element).slideDown((index + 1) * 150);
+            });
+            break;
+    }
+}
+
+
+//覆盖mac导航条
+function showMacNav() {
+    if (nowShow != "mac_nav") {
+        hideNav();
+    }
+    showNavLi("mac_nav");
+    nowShow = "mac_nav";
+}
+
+//覆盖ipad导航条
+function showIpadNav() {
+    if (nowShow != "ipad_nav") {
+        hideNav();
+    }
+    showNavLi("ipad_nav");
+    nowShow = "ipad_nav"
+}
+
 
 
 

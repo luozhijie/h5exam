@@ -14,6 +14,9 @@ function hidenAll() {
         $(element).hide();
     });
 
+    $("#ul_iphone li").each(function (index, element) {
+        $(element).hide();
+    });
 }
 
 //收起所有二级菜单
@@ -24,6 +27,9 @@ function hiddenAll2Nav() {
             break;
         case "ipad_nav" :
             $("#ipad_nav").slideUp();
+            break;
+        case "iphone_nav" :
+            $("#iphone_nav").slideUp();
             break;
     }
 
@@ -48,6 +54,12 @@ function hideNav() {
                 $(element).hide();
             });
             break;
+        case "iphone_nav":
+            hiddenAll2Nav();
+            $("#ul_iphone li").each(function (index, element) {
+                $(element).hide();
+            });
+            break;
 
 
     }
@@ -69,11 +81,17 @@ function showNavLi(whoShow) {
                 $(element).slideDown((index + 1) * 150);
             });
             break;
+            case "iphone_nav" :
+            $("#iphone_nav").slideDown();
+            $("#ul_iphone li").each(function (index, element) {
+                $(element).slideDown((index + 1) * 150);
+            });
+            break;
     }
 }
 
 
-//覆盖mac导航条
+//显示mac导航条
 function showMacNav() {
     if (nowShow != "mac_nav") {
         hideNav();
@@ -82,13 +100,21 @@ function showMacNav() {
     nowShow = "mac_nav";
 }
 
-//覆盖ipad导航条
+//显示ipad导航条
 function showIpadNav() {
     if (nowShow != "ipad_nav") {
         hideNav();
     }
     showNavLi("ipad_nav");
     nowShow = "ipad_nav"
+}
+//显示iphone导航条
+function showIphoneNav() {
+    if (nowShow != "iphone_nav") {
+        hideNav();
+    }
+    showNavLi("iphone_nav");
+    nowShow = "iphone_nav"
 }
 
 

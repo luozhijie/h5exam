@@ -78,8 +78,7 @@
   transition: background .2s ease, line-height .2s ease, margin .2s ease;
 }
 .tab-nav li.active a {
-  background: #6EB590;
-  color: white;
+  color: rgb(85, 85, 85);
   line-height: 2.5em;
   margin-top: 0;
 }

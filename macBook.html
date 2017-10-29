@@ -1,0 +1,1729 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MacBook</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" href="css/shutter.css">
+    <link rel="stylesheet" href="css/tab.css"/>
+    <link rel="stylesheet" href="css/tab_full_nav.css"/>
+    <link rel="stylesheet" href="css/macBook.css"/>
+</head>
+<body>
+<nav class="ac-globalnav">
+    <ul id="nav_ul">
+        <li class="inline_block" id="li_apple_icon">
+            <div><img src="images/nav_pic/image_large.svg"></div>
+        </li>
+        <li class="inline_block" id="li_mac" onmouseover="showMacNav();return;">
+            <div><img src="images/nav_pic/image_large_001.svg"></div>
+        </li>
+        <li class="inline_block" id="li_ipad" onmouseover="showIpadNav();return;">
+            <div><img src="images/nav_pic/image_large_003.svg"></div>
+        </li>
+        <li class="inline_block" id="li_iphone" onmouseover="showIphoneNav();return;">
+            <div><img src="images/nav_pic/image_large_004.svg"></div>
+        </li>
+        <li class="inline_block" id="li_watch">
+            <div><img src="images/nav_pic/image_large_002.svg"></div>
+        </li>
+        <li class="inline_block" id="li_tv">
+            <div><img src="images/nav_pic/image_large_005.svg"></div>
+        </li>
+        <li class="inline_block" id="li_music">
+            <div><img src="images/nav_pic/image_large_006.svg"></div>
+        </li>
+        <li class="inline_block" id="li_support">
+            <div><img src="images/nav_pic/image_large_009.svg"></div>
+        </li>
+        <li class="inline_block" id="li_search">
+            <div><img src="images/nav_pic/image_large_007.svg"></div>
+        </li>
+        <li class="inline_block" id="li_shop">
+            <div><img src="images/nav_pic/image_large_008.svg"></div>
+        </li>
+    </ul>
+</nav>
+<!-- mac导航条 -->
+<nav class="chapternav mac-nav-theme" id="mac_nav">
+    <div class="chapternav-wrapper">
+        <ul id="ul_mac">
+            <li class="inline_block inline_block_auto_spacing">
+                <a>
+                    <figure class="macbook_dark_large_img" onclick="location='macBook.html'"></figure>
+                    <span class="chapternav-label" onclick="location='macBook.html'">MacBook</span>
+                </a>
+            </li>
+            <li class="inline_block inline_block_auto_spacing">
+                <a>
+                    <figure class="macbookair_dark_large_img" onclick="location='macBookAir.html'"></figure>
+                    <span class="chapternav-label" onclick="location='macBookAir.html'">MacBook Air</span>
+                </a>
+            </li>
+            <li class="inline_block inline_block_auto_spacing">
+                <a>
+                    <figure class="macbookpro_dark_large_img"></figure>
+                    <span class="chapternav-label">MacBook Pro</span>
+                </a>
+            </li>
+            <li class="inline_block inline_block_auto_spacing">
+                <a>
+                    <figure class="imac_dark_large_img"></figure>
+                    <span class="chapternav-label">iMac</span>
+                </a>
+            </li>
+            <li class="inline_block inline_block_auto_spacing">
+                <a>
+                    <figure class="imacpro_dark_large_img"></figure>
+                    <span class="chapternav-label">iMac Pro</span>
+                </a>
+            </li>
+            <li class="inline_block inline_block_auto_spacing">
+                <a>
+                    <figure class="macpro_dark_large_img"></figure>
+                    <span class="chapternav-label">Mac Pro</span>
+                </a>
+            </li>
+            <li class="inline_block inline_block_auto_spacing">
+                <a>
+                    <figure class="macmini_dark_large_img"></figure>
+                    <span class="chapternav-label">Mac mini</span>
+                </a>
+            </li>
+            <li class="inline_block inline_block_auto_spacing">
+                <a>
+                    <figure class="acc_dark_large_img"></figure>
+                    <span class="chapternav-label">Accessories</span>
+                </a>
+            </li>
+            <li class="inline_block inline_block_auto_spacing">
+                <a>
+                    <figure class="highsierra_dark_large_img"></figure>
+                    <span class="chapternav-label">High Sierra</span>
+                </a>
+            </li>
+            <li class="inline_block inline_block_auto_spacing">
+                <a>
+                    <figure class="compare_dark_large_img"></figure>
+                    <span class="chapternav-label">Compare</span>
+                </a>
+            </li>
+
+        </ul>
+    </div>
+</nav>
+
+
+<!-- iPad导航条 -->
+<nav class="chapternav ipad-nav-theme" id="ipad_nav">
+    <div class="chapternav-wrapper">
+        <ul id="ul_ipad">
+            <li class="inline_block inline_block_auto_spacing">
+                <a>
+                    <figure class="ipadpro_light_large_img"></figure>
+                    <span class="chapternav-label">iPad Pro</span>
+                </a>
+            </li>
+            <li class="inline_block inline_block_auto_spacing">
+                <a>
+                    <figure class="ipad_large_img"></figure>
+                    <span class="chapternav-label">iPad</span>
+                </a>
+            </li>
+            <li class="inline_block inline_block_auto_spacing">
+                <a>
+                    <figure class="ipadmini_large_img"></figure>
+                    <span class="chapternav-label">iPad Mini</span>
+                </a>
+            </li>
+            <li class="inline_block inline_block_auto_spacing">
+                <a>
+                    <figure class="ipad_ios10_large"></figure>
+                    <span class="chapternav-label">IOS 11</span>
+                </a>
+            </li>
+            <li class="inline_block inline_block_auto_spacing">
+                <a>
+                    <figure class="ipad_acc_large"></figure>
+                    <span class="chapternav-label">Accessories</span>
+                </a>
+            </li>
+            <li class="inline_block inline_block_auto_spacing">
+                <a>
+                    <figure class="ipad_comp_large"></figure>
+                    <span class="chapternav-label">Compare</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<!-- iPhone导航条 -->
+<nav class="chapternav iphone-nav-theme" id="iphone_nav">
+    <div class="chapternav-wrapper">
+        <ul id="ul_iphone">
+            <li class="inline_block inline_block_auto_spacing">
+                <a>
+                    <figure class="iphonex_large"></figure>
+                    <span class="chapternav-label">iPhone X</span>
+                </a>
+            </li>
+            <li class="inline_block inline_block_auto_spacing">
+                <a>
+                    <figure class="iphone8_large"></figure>
+                    <span class="chapternav-label">iPhone 8</span>
+                </a>
+            </li>
+            <li class="inline_block inline_block_auto_spacing">
+                <a>
+                    <figure class="iphone7_large"></figure>
+                    <span class="chapternav-label">iPhone 7</span>
+                </a>
+            </li>
+            <li class="inline_block inline_block_auto_spacing">
+                <a>
+                    <figure class="iphone6s_large"></figure>
+                    <span class="chapternav-label">iPhone 6s</span>
+                </a>
+            </li>
+            <li class="inline_block inline_block_auto_spacing">
+                <a>
+                    <figure class="iphonese_large"></figure>
+                    <span class="chapternav-label">iPhone SE</span>
+                </a>
+            </li>
+            <li class="inline_block inline_block_auto_spacing">
+                <a>
+                    <figure class="iphone_ios_large"></figure>
+                    <span class="chapternav-label">IOS 11</span>
+                </a>
+            </li>
+            <li class="inline_block inline_block_auto_spacing">
+
+                <a>
+                    <figure class="iphone_acc_large"></figure>
+                    <span class="chapternav-label">Accessories</span>
+                </a>
+            </li>
+            <li class="inline_block inline_block_auto_spacing">
+                <a>
+                    <figure class="iphone_ios_large"></figure>
+                    <span class="chapternav-label">Compare</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<h1 class="macbook_first_font">MacBook</h1>
+<h2 class="macbook_second_font">Light. Years ahead.</h2>
+<div class="macbook_first_img"></div>
+<img src="images/macbook_pic/newmac_translate.png" alt="">
+<img src="images/macbook_pic/newmacbook_overview_colors_large.jpg" alt="" style="width: 100%; margin-top: 160px;">
+<img src="images/macbook_pic/macbook_more_muscle_font.png" alt="" style="margin-top: 160px;">
+<!--各种语言的引导-->
+<div class="full_language_guide">
+    <div class="container">
+        <div class="tab-group">
+            <section id="tab1" title="中文">
+                <div class="full_language_guide">
+                    <div class="full_language_guide_div">
+                        <h3 class="title_font">
+                            选购及了解
+                        </h3>
+                        <ul class="ac-gf-directory-column-section-item">
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Mac
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    iPad
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    iPhone
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Watch
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    TV
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Music
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    iTunes
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    HomePod
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    iPod touch
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    配件
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    App Store 充值卡
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="full_language_guide_div">
+                        <h3 class="title_font">
+                            Apple Store 商店
+                        </h3>
+                        <ul class="ac-gf-directory-column-section-item">
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    查找零售店
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Genius Bar 天才吧
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Today at Apple
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Apple 夏令营
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Field Trip 课外活动
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Apple Store App
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    翻新和优惠
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    分期付款
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    重复使用和循环利用
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    订单状态
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    选购帮助
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="full_language_guide_div">
+                        <h3 class="title_font">
+                            教育应用
+                        </h3>
+                        <ul class="ac-gf-directory-column-section-item">
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Apple 与教育
+                                </a>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    高校师生选购
+                                </a>
+                            </li>
+                        </ul>
+                        <h3 class="title_font" style="padding-top: 24px;">
+                            商务应用
+                        </h3>
+                        <ul class="ac-gf-directory-column-section-item">
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Apple 与商务
+                                </a>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    商务选购
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="full_language_guide_div">
+                        <h3 class="title_font">
+                            账户
+                        </h3>
+                        <ul class="ac-gf-directory-column-section-item">
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    管理你的 Apple ID
+                                </a>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Apple Store 账户
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    iCloud.com
+                                </a>
+                            </li>
+                        </ul>
+                        <h3 class="title_font" style="padding-top: 24px;">
+                            Apple 价值观
+                        </h3>
+                        <ul class="ac-gf-directory-column-section-item">
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    辅助功能
+                                </a>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    环境责任
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    隐私
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    供应商责任
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="full_language_guide_div">
+                        <h3 class="title_font">
+                            关于 Apple
+                        </h3>
+                        <ul class="ac-gf-directory-column-section-item">
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Newsroom
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Apple 管理层
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    工作机会
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    活动
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    联系 Apple
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section id="tab2" title="English">
+                <div class="full_language_guide">
+                    <div class="full_language_guide_div">
+                        <h3 class="title_font">
+                            Shop and Learn
+                        </h3>
+                        <ul class="ac-gf-directory-column-section-item">
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Mac
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    iPad
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    iPhone
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Watch
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    TV
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Music
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    iTunes
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    HomePod
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    iPod touch
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Accessories
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    GiftCards
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="full_language_guide_div">
+                        <h3 class="title_font">
+                            Apple Store
+                        </h3>
+                        <ul class="ac-gf-directory-column-section-item">
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Find a Store
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Genius Bar
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Today at Apple
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Apple Camp
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Field Trip
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Apple Store App
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Refurbished and Clearance
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Financing
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Reuse and Recycling
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Order Status
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Shopping Help
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="full_language_guide_div">
+                        <h3 class="title_font">
+                            For Education
+                        </h3>
+                        <ul class="ac-gf-directory-column-section-item">
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Apple and Education
+                                </a>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Shop for College
+                                </a>
+                            </li>
+                        </ul>
+                        <h3 class="title_font" style="padding-top: 24px;">
+                            For Business
+                        </h3>
+                        <ul class="ac-gf-directory-column-section-item">
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Apple and Business
+                                </a>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Shop for Business
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="full_language_guide_div">
+                        <h3 class="title_font">
+                            Account
+                        </h3>
+                        <ul class="ac-gf-directory-column-section-item">
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Manage Your Apple ID
+                                </a>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Apple Store Account
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    iCloud.com
+                                </a>
+                            </li>
+                        </ul>
+                        <h3 class="title_font" style="padding-top: 24px;">
+                            Apple Values
+                        </h3>
+                        <ul class="ac-gf-directory-column-section-item">
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Accessibility
+                                </a>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Education
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Environment
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Inclusion and Diversity
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Privacy
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Supplier Responsibility
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="full_language_guide_div">
+                        <h3 class="title_font">
+                            About Apple
+                        </h3>
+                        <ul class="ac-gf-directory-column-section-item">
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Newsroom
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Apple Leadership
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Job Opportunities
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Investors
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Events
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Contact Apple
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section id="tab3" title="English1">
+                <div class="full_language_guide">
+                    <div class="full_language_guide_div">
+                        <h3 class="title_font">
+                            Shop and Learn
+                        </h3>
+                        <ul class="ac-gf-directory-column-section-item">
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Mac
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    iPad
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    iPhone
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Watch
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    TV
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Music
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    iTunes
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    HomePod
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    iPod touch
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Accessories
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    GiftCards
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="full_language_guide_div">
+                        <h3 class="title_font">
+                            Apple Store
+                        </h3>
+                        <ul class="ac-gf-directory-column-section-item">
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Find a Store
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Genius Bar
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Today at Apple
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Apple Camp
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Field Trip
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Apple Store App
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Refurbished and Clearance
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Financing
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Reuse and Recycling
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Order Status
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Shopping Help
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="full_language_guide_div">
+                        <h3 class="title_font">
+                            For Education
+                        </h3>
+                        <ul class="ac-gf-directory-column-section-item">
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Apple and Education
+                                </a>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Shop for College
+                                </a>
+                            </li>
+                        </ul>
+                        <h3 class="title_font" style="padding-top: 24px;">
+                            For Business
+                        </h3>
+                        <ul class="ac-gf-directory-column-section-item">
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Apple and Business
+                                </a>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Shop for Business
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="full_language_guide_div">
+                        <h3 class="title_font">
+                            Account
+                        </h3>
+                        <ul class="ac-gf-directory-column-section-item">
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Manage Your Apple ID
+                                </a>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Apple Store Account
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    iCloud.com
+                                </a>
+                            </li>
+                        </ul>
+                        <h3 class="title_font" style="padding-top: 24px;">
+                            Apple Values
+                        </h3>
+                        <ul class="ac-gf-directory-column-section-item">
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Accessibility
+                                </a>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Education
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Environment
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Inclusion and Diversity
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Privacy
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Supplier Responsibility
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="full_language_guide_div">
+                        <h3 class="title_font">
+                            About Apple
+                        </h3>
+                        <ul class="ac-gf-directory-column-section-item">
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Newsroom
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Apple Leadership
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Job Opportunities
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Investors
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Events
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Contact Apple
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section id="tab4" title="English2">
+                <div class="full_language_guide">
+                    <div class="full_language_guide_div">
+                        <h3 class="title_font">
+                            Shop and Learn
+                        </h3>
+                        <ul class="ac-gf-directory-column-section-item">
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Mac
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    iPad
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    iPhone
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Watch
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    TV
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Music
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    iTunes
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    HomePod
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    iPod touch
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Accessories
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    GiftCards
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="full_language_guide_div">
+                        <h3 class="title_font">
+                            Apple Store
+                        </h3>
+                        <ul class="ac-gf-directory-column-section-item">
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Find a Store
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Genius Bar
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Today at Apple
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Apple Camp
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Field Trip
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Apple Store App
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Refurbished and Clearance
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Financing
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Reuse and Recycling
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Order Status
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Shopping Help
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="full_language_guide_div">
+                        <h3 class="title_font">
+                            For Education
+                        </h3>
+                        <ul class="ac-gf-directory-column-section-item">
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Apple and Education
+                                </a>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Shop for College
+                                </a>
+                            </li>
+                        </ul>
+                        <h3 class="title_font" style="padding-top: 24px;">
+                            For Business
+                        </h3>
+                        <ul class="ac-gf-directory-column-section-item">
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Apple and Business
+                                </a>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Shop for Business
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="full_language_guide_div">
+                        <h3 class="title_font">
+                            Account
+                        </h3>
+                        <ul class="ac-gf-directory-column-section-item">
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Manage Your Apple ID
+                                </a>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Apple Store Account
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    iCloud.com
+                                </a>
+                            </li>
+                        </ul>
+                        <h3 class="title_font" style="padding-top: 24px;">
+                            Apple Values
+                        </h3>
+                        <ul class="ac-gf-directory-column-section-item">
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Accessibility
+                                </a>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Education
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Environment
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Inclusion and Diversity
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Privacy
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Supplier Responsibility
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="full_language_guide_div">
+                        <h3 class="title_font">
+                            About Apple
+                        </h3>
+                        <ul class="ac-gf-directory-column-section-item">
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Newsroom
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Apple Leadership
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Job Opportunities
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Investors
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Events
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Contact Apple
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section id="tab5" title="English3">
+                <div class="full_language_guide">
+                    <div class="full_language_guide_div">
+                        <h3 class="title_font">
+                            Shop and Learn
+                        </h3>
+                        <ul class="ac-gf-directory-column-section-item">
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Mac
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    iPad
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    iPhone
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Watch
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    TV
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Music
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    iTunes
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    HomePod
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    iPod touch
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Accessories
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    GiftCards
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="full_language_guide_div">
+                        <h3 class="title_font">
+                            Apple Store
+                        </h3>
+                        <ul class="ac-gf-directory-column-section-item">
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Find a Store
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Genius Bar
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Today at Apple
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Apple Camp
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Field Trip
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Apple Store App
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Refurbished and Clearance
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Financing
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Reuse and Recycling
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Order Status
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Shopping Help
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="full_language_guide_div">
+                        <h3 class="title_font">
+                            For Education
+                        </h3>
+                        <ul class="ac-gf-directory-column-section-item">
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Apple and Education
+                                </a>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Shop for College
+                                </a>
+                            </li>
+                        </ul>
+                        <h3 class="title_font" style="padding-top: 24px;">
+                            For Business
+                        </h3>
+                        <ul class="ac-gf-directory-column-section-item">
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Apple and Business
+                                </a>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Shop for Business
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="full_language_guide_div">
+                        <h3 class="title_font">
+                            Account
+                        </h3>
+                        <ul class="ac-gf-directory-column-section-item">
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Manage Your Apple ID
+                                </a>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Apple Store Account
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    iCloud.com
+                                </a>
+                            </li>
+                        </ul>
+                        <h3 class="title_font" style="padding-top: 24px;">
+                            Apple Values
+                        </h3>
+                        <ul class="ac-gf-directory-column-section-item">
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Accessibility
+                                </a>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Education
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Environment
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Inclusion and Diversity
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Privacy
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Supplier Responsibility
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="full_language_guide_div">
+                        <h3 class="title_font">
+                            About Apple
+                        </h3>
+                        <ul class="ac-gf-directory-column-section-item">
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Newsroom
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Apple Leadership
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Job Opportunities
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Investors
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Events
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Contact Apple
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section id="tab6" title="English4">
+                <div class="full_language_guide">
+                    <div class="full_language_guide_div">
+                        <h3 class="title_font">
+                            Shop and Learn
+                        </h3>
+                        <ul class="ac-gf-directory-column-section-item">
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Mac
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    iPad
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    iPhone
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Watch
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    TV
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Music
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    iTunes
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    HomePod
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    iPod touch
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Accessories
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    GiftCards
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="full_language_guide_div">
+                        <h3 class="title_font">
+                            Apple Store
+                        </h3>
+                        <ul class="ac-gf-directory-column-section-item">
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Find a Store
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Genius Bar
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Today at Apple
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Apple Camp
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Field Trip
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Apple Store App
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Refurbished and Clearance
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Financing
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Reuse and Recycling
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Order Status
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Shopping Help
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="full_language_guide_div">
+                        <h3 class="title_font">
+                            For Education
+                        </h3>
+                        <ul class="ac-gf-directory-column-section-item">
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Apple and Education
+                                </a>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Shop for College
+                                </a>
+                            </li>
+                        </ul>
+                        <h3 class="title_font" style="padding-top: 24px;">
+                            For Business
+                        </h3>
+                        <ul class="ac-gf-directory-column-section-item">
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Apple and Business
+                                </a>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Shop for Business
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="full_language_guide_div">
+                        <h3 class="title_font">
+                            Account
+                        </h3>
+                        <ul class="ac-gf-directory-column-section-item">
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Manage Your Apple ID
+                                </a>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Apple Store Account
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    iCloud.com
+                                </a>
+                            </li>
+                        </ul>
+                        <h3 class="title_font" style="padding-top: 24px;">
+                            Apple Values
+                        </h3>
+                        <ul class="ac-gf-directory-column-section-item">
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Accessibility
+                                </a>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Education
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Environment
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Inclusion and Diversity
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Privacy
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Supplier Responsibility
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="full_language_guide_div">
+                        <h3 class="title_font">
+                            About Apple
+                        </h3>
+                        <ul class="ac-gf-directory-column-section-item">
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Newsroom
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Apple Leadership
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Job Opportunities
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Investors
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Events
+                                </a>
+                            </li>
+                            <li class="ac-gf-directory-column-section-item">
+                                <a class="ac-gf-directory-column-section-link" href="#">
+                                    Contact Apple
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+<script src="js/jquery-3.2.1.js" type="text/javascript"></script>
+<script src="js/index.js" type="text/javascript"></script>
+<script src="js/velocity.js" type="text/javascript"></script>
+<script src="js/shutter.js" type="text/javascript"></script>
+<script src="js/prefixfree.min.js" type="text/javascript"></script>
+<script src="js/jquery-tab.js" type="text/javascript"></script>
+<script type="text/javascript">
+    $(function () {
+        // Calling the plugin
+        $('.tab-group').tabify();
+    })
+</script>
+</body>
+</html>
